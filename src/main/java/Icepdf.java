@@ -15,7 +15,7 @@ import org.icepdf.core.util.GraphicsRenderingHints;
 public class Icepdf {
     public static void pdf2Pic(String pdfPath, String path, String url) throws MalformedURLException {
         Document document = new Document();
-        if(StringUtils.isNotBlank(pdfPath)){
+        if(StringUtils.isNotBlank(url)){
             URL pdfUrl = new URL(url);
             document.setUrl(pdfUrl);
 
@@ -43,8 +43,9 @@ public class Icepdf {
         document.dispose();
     }
     public static void main(String[] args) throws MalformedURLException {
-        String filePath = "D:\\workspace\\testpdftoimage\\22D8867F4A04928CACC065125F0BBC2A_20180929160331.pdf";
-        String url ="http://172.0.16.102:8080/WLZFZP/22D8867F4A04928CACC065125F0BBC2A_20180929160331.pdf";
+        String filePath = "";
+        String url = "";
+                url ="http://172.0.16.102:8080/WLZFZP/9EBEF048A4CB89D3AD877AFA8BE3C705_20180929152237.pdf";
         pdf2Pic(filePath, "D:\\",url);
     }
 }
