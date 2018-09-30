@@ -1,0 +1,68 @@
+#built application files
+*.apk
+*.ap_
+
+
+# Log file
+*.log
+
+# files for the dex VM
+*.dex
+
+# Gradle cache
+.gradle
+
+# generated files
+bin/
+gen/
+out/
+build/
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+*.class
+logs
+rebel.xml
+/LOG_PATH_IS_UNDEFINEDLOG_FILE_IS_UNDEFINED
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+/target/
+
+*velocity.log*
+
+### Eclipse ###
+.classpath
+.project
+.settings
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+.idea/workspace.xml
+.idea/gradle.xml
+*.iws
+*.iml
+*.ipr
+gradle
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
