@@ -1,4 +1,4 @@
-### pdf 转图片 icepdf 以及 pdfbox
+### pdf 转图片 icepdf 以及 pdfbox 方式
 ##### 手动导入打印所需jar包
 ###### 1.core-renderer-0.2.jar
 ```
