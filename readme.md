@@ -1,4 +1,10 @@
 ### pdf 转图片 icepdf 以及 pdfbox 方式
+
+##### 手动导入打印所需jar包
+```
+idea 需要调整内存大小，不然在tomcat 服务上运行时pdf 转图片会卡
+```
+
 ##### 手动导入打印所需jar包
 ###### 1.core-renderer-0.2.jar
 ```
